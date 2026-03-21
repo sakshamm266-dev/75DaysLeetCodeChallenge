@@ -9,7 +9,8 @@ class Solution {
         }
         if(j==-1)
         return;
-        for(int k=j+1;k<nums.length;k++){
+        int n=nums.length;
+        for(int k=j+1;k<n;k++){
             if(nums[k]!=0){
                 int temp=nums[j];
                 nums[j]=nums[k];
